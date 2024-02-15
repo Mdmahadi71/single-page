@@ -1,0 +1,47 @@
+.boxiner{
+    background-color: #FDEDE8;
+    border-radius: 20px;
+    padding: 20px 30px 20px 80px ;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: relative;
+}
+.boxiner::after{
+    position: absolute;
+    content: '';
+    height: 60px;
+    width: 2px;
+    background-color: red;
+    top: 50%;
+    left: 65px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.boxiner .ab_icon{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    font-size: 30px;
+}
+.boxiner h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+.boxiner p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}

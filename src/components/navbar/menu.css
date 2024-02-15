@@ -1,0 +1,33 @@
+.main_manu .mx-auto a{
+    color: black !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 16px;
+    padding: 0 40px !important;
+}
+.main_manu .mx-auto a:hover{
+    color: #EA580C !important;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.donbtn{
+    border:1px solid #EA580C;
+    padding: 15px 30px;
+    background-color: #EA580C !important;
+    color: aliceblue !important;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.icon{
+    color: #ffffff !important;
+}
+.donbtn a{
+    color: #ffffff !important;
+}
